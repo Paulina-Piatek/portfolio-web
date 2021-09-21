@@ -68,7 +68,7 @@ tabs.forEach(tab => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper('.portfolio__container', {
+/*let swiper = new Swiper('.portfolio__container', {
     cssMode: true,
     loop: true,
     navigation: {
@@ -80,7 +80,7 @@ let swiper = new Swiper('.portfolio__container', {
       clickable: true,
     },
 
-  });
+  });*/
 
 /*==================== TESTIMONIAL ====================*/
 
