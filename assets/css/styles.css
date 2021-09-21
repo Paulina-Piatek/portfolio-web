@@ -582,9 +582,6 @@ border-radius: .25rem;
 .portfolio__description{
     margin-bottom:var(--mb-0-75);
 }
-.portfolio{
-    background-color: #FAFAFF;
-}
 .portfolio__container{
     justify-items: center;
     row-gap: 2rem;
@@ -604,7 +601,7 @@ border-radius: .25rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,.3);
+    color: var(--first-color);
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
