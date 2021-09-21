@@ -489,50 +489,61 @@
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Most recent work</span>
-            <div class="portfolio__container container bd-grid">
-                <div class="portfolio__content">
-                <div class="portfolio__img">
-                    <img src="assets/img/website.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a href="#" class="portfolio__link-name">View details</a>
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--====== PORTFOLIO1 =======-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/websiteprev.png" alt="" class="portfolio__img">
+                       <div class="portfolio__data">
+                           <h3 class="portfolio__title">Website</h3>
+                           <p class="portfolio__description">Website adaptable to all devices.</p>
+                           <a href="http://spzoz-mogilno.pl/" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div> 
+                    </div>
+                    <!--====== PORTFOLIO2 =======-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/loginlist.png" alt="" class="portfolio__img">
+                       <div class="portfolio__data">
+                           <h3 class="portfolio__title">ToDoList</h3>
+                           <p class="portfolio__description">Multi-functional to-do lists to create clear management of ideas and work.</p>
+                           <a href="https://drive.google.com/drive/u/1/folders/12ZYt8zzzoHbVRG0uE9NCyrjrGoE9UqQ5" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div> 
+                    </div>                    
+                    <!--====== PORTFOLIO3 =======-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/salesphoto.png" alt="" class="portfolio__img">
+                       <div class="portfolio__data">
+                           <h3 class="portfolio__title">Web Sales</h3>
+                           <p class="portfolio__description">Web sales have information about orders, products and clients. </p>
+                           <a href="https://drive.google.com/drive/u/1/folders/1sin9NTUPzbyOgSbp_oJ8vak5r3OxN_It" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div> 
                     </div>
                 </div>
+                <!--Add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>                    
+                <div class="swiper-button-prev">
+                    <i class="uil-angle-left-b swiper-portfolio-icon"></i>
                 </div>
-                <div class="portfolio__content">
-                <div class="portfolio__img">
-                    <img src="assets/img/salesphoto.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a href="#" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
-                </div>
-                <div class="portfolio__content">
-                <div class="portfolio__img">
-                    <img src="assets/img/loginlist1.png" alt="">
-
-                    <div class="portfolio__link">
-                        <a href="#" class="portfolio__link-name">View details</a>
-                    </div>
-                </div>
-                </div>
-                <div class="portfolio__content">
-                    <div class="portfolio__img">
-                        <img src="assets/img/Website09.png" alt="">
-    
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    </div>
+                <!--Add pagination-->
+                <div class="swiper-pagination"></div>                
             </div>
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <!--<section class="project section"> </section>-->
+            <!--<section class="project section"> </section>=-->
 
             <!--==================== TESTIMONIAL ====================-->
             <!--==<section class="testimonial section">
@@ -563,7 +574,7 @@
                             <i class="uil uil-map-marker contact__icon"></i>
                             <div>
                                 <h3 class="contact__tile">Location</h3>
-                                <span class="contact__subtitle">ul.Leszka Białego 3, 88-300 Mogilno, Poland</span>
+                                <span class="contact__subtitle">88-300 Mogilno, Poland</span>
                             </div>
                         </div>   
                         <a href="mailto:paulina.piatek.code@gmail.com" class="button button--flex">
