@@ -885,9 +885,6 @@ body{
 .qualification__sections{
   grid-template-columns: .5fr;  
 }
-.portfolio__container{	
-	grid-template-columns: repeat(3,1fr);
-}
 
 .footer__container{
     grid-template-columns: repeat(3, 1fr);
@@ -918,9 +915,6 @@ body{
 }
 .home__social{
     transform: translateX(-6rem);
-}
-.portfolio__container{	
-	grid-template-columns: repeat(3,1fr);
 }
 .swiper-portfolio-icon{
     font-size: 3.5rem;   
