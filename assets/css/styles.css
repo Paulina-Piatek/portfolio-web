@@ -793,11 +793,13 @@ border-radius: .25rem;
 }
 .about__container,
 .skills__container,
-.portfolio__container,
 .contact__container,
 .footer__container{
     grid-template-columns: repeat(2,1fr);
 }
+.portfolio__container{
+    grid-template-columns: repeat(3,1fr);	
+	}
 }  
 /*  */
 @media screen and (min-width: 768px) {
