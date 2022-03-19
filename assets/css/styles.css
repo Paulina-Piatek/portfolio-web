@@ -560,8 +560,6 @@ border-radius: .25rem;
     color: var(--first-color);
 
 }
-/*==================== SERVICES ====================*/
-
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
     overflow: initial;
@@ -613,12 +611,6 @@ border-radius: .25rem;
 .portfolio__link-name{
     color: #2A3B47;
 }
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
