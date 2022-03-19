@@ -928,6 +928,9 @@ body{
 .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -4.5rem;
 }
+.portfolio__container{
+    grid-template-columns: repeat(3,1fr);	
+	}	
 .contact__form{
   width: 460px;  
 }
