@@ -885,7 +885,9 @@ body{
 .qualification__sections{
   grid-template-columns: .5fr;  
 }
-
+.portfolio__container{
+    grid-template-columns: repeat(3,1fr);	
+	}
 .footer__container{
     grid-template-columns: repeat(3, 1fr);
 }
