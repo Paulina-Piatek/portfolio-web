@@ -622,6 +622,10 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+.contact__subtitle a {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
 .contact__content {
   background-color: var(--input-color);
   border-radius: 0.5rem;
