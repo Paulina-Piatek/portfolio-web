@@ -432,50 +432,17 @@ img {
   display: block;
   background-color: var(--first-color);
 }
-.skills__html {
-  width: 70%;
-}
-.skills__css {
-  width: 50%;
-}
-.skills__js {
-  width: 50%;
-}
-.skills__wp {
-  width: 65%;
-}
-.skills__py {
-  width: 75%;
-}
-.skills__dj {
-  width: 50%;
-}
-.skills__php {
-  width: 50%;
-}
-.skills__mysql {
-  width: 70%;
-}
-.skills__ct {
-  width: 90%;
-}
-.skills__ls {
-  width: 90%;
-}
-.skills__ps {
-  width: 90%;
-}
-.skills__coms {
-  width: 85%;
-}
 .skills__beginner {
-  width: 40%;
+  width: 30%;
 }
 .skills__intermediate {
-  width: 65%;
+  width: 50%;
 }
 .skills__advanced {
-  width: 90%;
+  width: 75%;
+}
+.skills__expert {
+  width: 95%;
 }
 
 .skills__close .skills__list {
