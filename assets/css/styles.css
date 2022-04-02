@@ -385,7 +385,7 @@ img {
 .skills__header {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-1-5); /*=2,5=*/
   cursor: pointer;
 }
 .skills__icon,
@@ -419,36 +419,37 @@ img {
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  line-height: 18px;
 }
-.skills__bar,
-.skills__percentage {
-  height: 5px;
-  border-radius: 0.25rem;
+
+/*====*/
+.skills__box{
+  display:flex;
+  justify-content: center;
+  column-gap: 2.5rem;
 }
-.skills__bar {
-  background-color: var(--first-color-lighter);
+.skills__group{
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
 }
-.skills__percentage {
-  display: block;
-  background-color: var(--first-color);
+.skills__data{
+  display: flex;
+  column-gap: .5rem;
 }
-.skills__beginner {
-  width: 30%;
+.skills .bx-badge-check{
+  font-size:1rem;
+  color:var(--first-color);
 }
-.skills__intermediate {
-  width: 50%;
+.skills__level{
+  font-size: var(--smaller-font-size);
+
 }
-.skills__advanced {
-  width: 75%;
-}
-.skills__expert {
-  width: 95%;
-}
+/*====*/
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
 }
-
 .skills__open .skills__list {
   height: max-content;
   margin-bottom: var(--mb-2-5);
