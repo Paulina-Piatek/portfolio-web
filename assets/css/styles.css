@@ -791,10 +791,11 @@ img {
     margin: 0;
   }
   .home__container {
-    row-gap: 5rem;
+    row-gap: 2rem;  /* 3rem; */
+
   }
   .home__content {
-    padding-top: 5.5rem;
+    padding-top: 0.5rem; /* 5.5rem; */
     column-gap: 2rem;
   }
   .home__blob {
