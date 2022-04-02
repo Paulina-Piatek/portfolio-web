@@ -425,7 +425,7 @@ img {
 /*====*/
 .skills__box{
   display:flex;
-  justify-content: center;
+  /* justify-content: center; */
   column-gap: 2.5rem;
 }
 .skills__group{
