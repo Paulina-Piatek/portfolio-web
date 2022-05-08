@@ -151,3 +151,10 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+// Typing animation
+    let typed = new Typed(".typing", {
+    strings:["","FrontEnd For Hire","Web Developer For Hire","IT Specialist For Hire"],
+    typedSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+});
